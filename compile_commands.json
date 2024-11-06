@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/bismuth/Documents/Tese/orbimp/build",
+  "command": "/usr/bin/c++ -DHAVE_EIGEN -DHAVE_EPOXY -DHAVE_PYTHON -DPANGO_DEFAULT_WIN_URI=\\\"wayland\\\" -DUSE_MONOTONIC -D_LINUX_ -I/home/bismuth/Documents/Tese/ORB_SLAM3 -I/home/bismuth/Documents/Tese/ORB_SLAM3/include -I/home/bismuth/Documents/Tese/ORB_SLAM3/include/CameraModels -I/home/bismuth/Documents/Tese/ORB_SLAM3/Thirdparty/Sophus -I/home/bismuth/Documents/Tese/ORB_SLAM3/Thirdparty/DBoW2 -I/home/bismuth/Documents/Tese/ORB_SLAM3/Thirdparty/g2o -I/home/bismuth/Documents/Tese/orbimp/include -isystem /usr/include/eigen3 -isystem /usr/include/opencv4  -o CMakeFiles/orbimp.dir/src/main.cpp.o -c /home/bismuth/Documents/Tese/orbimp/src/main.cpp",
+  "file": "/home/bismuth/Documents/Tese/orbimp/src/main.cpp",
+  "output": "CMakeFiles/orbimp.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/bismuth/Documents/Tese/orbimp/build",
+  "command": "/usr/bin/c++ -DHAVE_EIGEN -DHAVE_EPOXY -DHAVE_PYTHON -DPANGO_DEFAULT_WIN_URI=\\\"wayland\\\" -DUSE_MONOTONIC -D_LINUX_ -I/home/bismuth/Documents/Tese/ORB_SLAM3 -I/home/bismuth/Documents/Tese/ORB_SLAM3/include -I/home/bismuth/Documents/Tese/ORB_SLAM3/include/CameraModels -I/home/bismuth/Documents/Tese/ORB_SLAM3/Thirdparty/Sophus -I/home/bismuth/Documents/Tese/ORB_SLAM3/Thirdparty/DBoW2 -I/home/bismuth/Documents/Tese/ORB_SLAM3/Thirdparty/g2o -I/home/bismuth/Documents/Tese/orbimp/include -isystem /usr/include/eigen3 -isystem /usr/include/opencv4  -o CMakeFiles/orbimp.dir/src/SharedMemoryInterface.cpp.o -c /home/bismuth/Documents/Tese/orbimp/src/SharedMemoryInterface.cpp",
+  "file": "/home/bismuth/Documents/Tese/orbimp/src/SharedMemoryInterface.cpp",
+  "output": "CMakeFiles/orbimp.dir/src/SharedMemoryInterface.cpp.o"
+}
+]
