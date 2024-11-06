@@ -12,19 +12,19 @@ The system utilizes shared memory for real-time communication between C++ (ORB-S
 
 - Real-time monocular SLAM using ORB-SLAM3
 - Deep learning-based depth estimation with Depth-Anything
-- High-performance shared memory communication between C++ and Python
-- Python integration for advanced data processing
+- High-performance real-time shared memory communication between C++ and Python
 - Point cloud generation capabilities (🚧 Under maintenance)
 
 ## 📋 Prerequisites
 
 - Python 3.11 (recommended)
-- ORB-SLAM3 dependencies
+- ORB-SLAM3
 - Environment variable `ORB_SLAM3_ROOT_DIR` set to your ORB-SLAM3 installation path
+- Depth-Anything
 
 ## 🛠️ Installation
 
-### 1. Setting up ORB-SLAM3
+### 1. Setting up ORB-SLAM3 C++ implementation
 
 ```bash
 # Create build directory
@@ -40,7 +40,7 @@ Copy the following files from your ORB-SLAM3 installation:
 - Copy `Monocular/` directory → `./Monocular/`
 - Add your datasets to `Datasets/`
 
-### 2. Setting up Depth-Anything
+### 2. Setting Python Depth and Visualization
 
 ```bash
 # Install Python dependencies
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 ### Running Depth Estimation
 
 ```bash
-python main.py  # Run while running the ORB_SLam3
+python python/main.py  # Run while running the ORB_SLam3
 ```
 
 ## 🚧 Known Issues
