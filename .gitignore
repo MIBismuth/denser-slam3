@@ -1,0 +1,48 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+*.pot
+*.mo
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# C++ build files
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.obj
+*.dll
+*.dSYM/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+lib/
+bin/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*~.nfs
+*.suo
+*.user
+*.userosscache
+*.sln
+
+# Virtual environment
+venv/
+env/
+.env/
+
